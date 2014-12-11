@@ -1,0 +1,63 @@
+
+$color: #007ded;
+$pannelHeight: 550px;
+$bgColor: rgba(90,90,90,.5);
+
+ div{
+     border: 2px solid $color;
+     color: $color;
+ }
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+input{
+    text-indent: 10px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 1000px;
+    background: $bgColor;
+    border: 2px solid $color;
+    color: $color;
+}
+button{
+    margin: 20px;
+    border-radius: 1000px;
+    background: $bgColor;
+    border: 2px solid $color;
+    color: $color;
+}
+button:hover{
+    border-radius: 1000px;
+    background: $bgColor;
+    border: 2px solid #0ff;
+    color: #0ff;
+}
+#placeholder{
+    width: 100%;
+    border: none;
+}
+p{
+        background: $bgColor;
+}
+
+h1{
+    text-align: center;
+    background: $bgColor;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1, h2, h3, h4, h5, p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Audiowide';
+}
+.wrapper{
+    border: 0;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper div{
+    float: left;
+}
